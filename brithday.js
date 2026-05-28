@@ -474,3 +474,23 @@ document.addEventListener("click", () => {
     bgMusic.play();
 
 }, { once: true });
+
+/* ================= NEXT PAGE ================= */
+
+const letterBtn =
+document.getElementById("letterBtn");
+
+letterBtn.addEventListener("click", () => {
+
+    document.body.style.transition = "1s";
+
+    document.body.style.opacity = "0";
+
+    setTimeout(() => {
+
+        window.location.href =
+        "next page/index.html";
+
+    }, 1000);
+
+});
