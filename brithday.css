@@ -1413,3 +1413,137 @@ button:hover{
     }
 
 }
+
+
+/* ================= MOBILE FIX FORM 4 & 5 ================= */
+
+@media screen and (max-width: 768px){
+
+    /* ================= FORM 4 ================= */
+
+    .snoopy-box{
+        width: 92%;
+        height: 78vh;
+
+        padding-top: 40px;
+    }
+
+    #snoopyText{
+        font-size: 18px;
+
+        line-height: 1.8;
+
+        padding: 0 18px;
+    }
+
+    .snoopy-walk{
+        width: 130px;
+
+        bottom: 70px;
+    }
+
+    #snoopyNextBtn{
+        width: 180px;
+        height: 55px;
+
+        font-size: 12px;
+
+        bottom: 20px;
+    }
+
+    /* ================= FORM 5 ================= */
+
+    .letter-box{
+        width: 92%;
+        height: 88vh;
+
+        padding: 25px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        overflow: hidden;
+    }
+
+    /* TEXT */
+
+    .from-text{
+        position: absolute;
+
+        top: 25px;
+        right: 45px;
+
+        left: auto;
+
+        font-size: 14px;
+
+        text-align: center;
+    }
+
+    .to-text{
+        position: absolute;
+
+        top: 25px;
+        left: 45px;
+
+        right: auto;
+
+        font-size: 14px;
+
+        text-align: center;
+
+        line-height: 1.5;
+    }
+
+    /* GIF */
+
+    .kuromi-gif{
+        width: 130px;
+
+        top: 90px;
+        right: 30px;
+
+        left: auto;
+    }
+
+    .melody-gif{
+        width: 120px;
+
+        top: 100px;
+        left: 30px;
+
+        right: auto;
+    }
+
+    /* MESSAGE */
+
+    .love-message{
+        left: 25px;
+        right: 25px;
+
+        bottom: 85px;
+
+        font-size: 14px;
+
+        line-height: 1.8;
+
+        text-align: center;
+    }
+
+    /* BUTTON */
+
+    #letterBtn{
+        width: 150px;
+        height: 50px;
+
+        font-size: 9px;
+
+        bottom: 18px;
+        right: 50%;
+
+        transform:
+        translateX(50%) translateY(15px);
+    }
+
+}

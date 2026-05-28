@@ -305,7 +305,7 @@ function startSnoopyScene(){
         snoopyNextBtn.style.transform =
         "translateX(-50%) translateY(0px)";
 
-    }, 8200);
+    }, 4200);
 
 }
 
