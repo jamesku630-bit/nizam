@@ -866,7 +866,8 @@ button:hover{
 }
 
 
-/* ================= FORM 5 ================= */ 
+/* ================= FORM 5 ================= */
+
 .letter-page{
     width: 100%;
     height: 100vh;
@@ -905,30 +906,26 @@ button:hover{
     overflow: hidden;
 }
 
-/* TEXT ATAS */
-
 /* TEXT */
 
 .from-text{
     position: absolute;
 
-    top: 25px;
-    right: 45px;
-
-    left: auto;
+    top: 75px;
+    left: 70px;
 
     font-size: 14px;
 
     text-align: center;
+
+    line-height: 1.5;
 }
 
 .to-text{
     position: absolute;
 
-    top: 25px;
-    left: 45px;
-
-    right: auto;
+    top: 75px;
+    right: 70px;
 
     font-size: 14px;
 
@@ -940,21 +937,25 @@ button:hover{
 /* GIF */
 
 .kuromi-gif{
-    width: 130px;
+    position: absolute;
 
-    top: 90px;
-    right: 30px;
+    width: 200px;
 
-    left: auto;
+    top: 130px;
+    left: 35px;
+
+    image-rendering: pixelated;
 }
 
 .melody-gif{
-    width: 120px;
+    position: absolute;
 
-    top: 100px;
-    left: 30px;
+    width: 190px;
 
-    right: auto;
+    top: 130px;
+    right: 35px;
+
+    image-rendering: pixelated;
 }
 
 /* MESSAGE */
@@ -964,7 +965,8 @@ button:hover{
 
     left: 70px;
     right: 70px;
-    bottom: 35px;
+
+    bottom: 110px;
 
     font-family: 'Poppins', sans-serif;
 
@@ -981,13 +983,13 @@ button:hover{
     min-height: 120px;
 }
 
-/* BUTTON FORM 5 */
+/* BUTTON */
 
 #letterBtn{
     position: absolute;
 
     right: 55px;
-    bottom: 18px;
+    bottom: 25px;
 
     width: 150px;
     height: 55px;
@@ -1013,12 +1015,6 @@ button:hover{
     transition: 0.4s;
 
     z-index: 10;
-}
-
-#letterBtn:hover{
-    transform: translateY(-2px) scale(1.03);
-
-    background: #ffc3df;
 }
 
 
@@ -1350,15 +1346,9 @@ button:hover{
 
 .letter-box{
     width: 95%;
-    height: auto;
-
     min-height: 90vh;
 
     padding: 30px 20px;
-
-    position: relative;
-
-    overflow: hidden;
 }
 
 /* TEXT */
@@ -1366,10 +1356,10 @@ button:hover{
 .from-text{
     position: absolute;
 
-    top: 25px;
-    left: 35px;
+    top: 20px;
+    left: 25px;
 
-    font-size: 14px;
+    font-size: 12px;
 
     text-align: center;
 
@@ -1379,10 +1369,10 @@ button:hover{
 .to-text{
     position: absolute;
 
-    top: 25px;
-    right: 35px;
+    top: 20px;
+    right: 25px;
 
-    font-size: 14px;
+    font-size: 12px;
 
     text-align: center;
 
@@ -1394,12 +1384,10 @@ button:hover{
 .kuromi-gif{
     position: absolute;
 
-    width: 120px;
+    width: 95px;
 
-    top: 80px;
-    left: 20px;
-
-    display: block;
+    top: 70px;
+    left: 15px;
 
     image-rendering: pixelated;
 }
@@ -1407,12 +1395,10 @@ button:hover{
 .melody-gif{
     position: absolute;
 
-    width: 120px;
+    width: 95px;
 
-    top: 80px;
-    right: 20px;
-
-    display: block;
+    top: 70px;
+    right: 15px;
 
     image-rendering: pixelated;
 }
@@ -1422,12 +1408,12 @@ button:hover{
 .love-message{
     position: absolute;
 
-    left: 25px;
-    right: 25px;
+    left: 20px;
+    right: 20px;
 
-    bottom: 90px;
+    bottom: 100px;
 
-    font-size: 14px;
+    font-size: 13px;
 
     line-height: 1.8;
 
@@ -1440,14 +1426,12 @@ button:hover{
     position: absolute;
 
     left: 50%;
-    bottom: 20px;
+    bottom: 25px;
 
     transform: translateX(-50%);
 
-    width: 180px;
-    height: 55px;
-
-    display: block;
+    width: 170px;
+    height: 50px;
 
     font-size: 10px;
 }

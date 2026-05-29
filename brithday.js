@@ -341,11 +341,17 @@ function typeSnoopyText(){
 const form5 =
 document.getElementById("form5");
 
+const fromText =
+document.getElementById("fromText");
+
 const toText =
 document.getElementById("toText");
 
 const loveMessage =
 document.getElementById("loveMessage");
+
+const fromMessage =
+`from me...`;
 
 const toMessage =
 `...to you,
@@ -356,6 +362,7 @@ const finalMessage =
 
 let toIndex = 0;
 let finalIndex = 0;
+let fromIndex = 0;
 
 /* BUTTON FORM 4 */
 
@@ -373,13 +380,38 @@ snoopyNextBtn.addEventListener("click", () => {
 
 function startForm5(){
 
+    fromText.innerHTML = "";
     toText.innerHTML = "";
     loveMessage.innerHTML = "";
 
+    fromIndex = 0;
     toIndex = 0;
     finalIndex = 0;
 
-    typeToText();
+    typeFromText();
+
+}
+
+function typeFromText(){
+
+    if(fromIndex < fromMessage.length){
+
+        fromText.innerHTML +=
+        fromMessage.charAt(fromIndex);
+
+        fromIndex++;
+
+        setTimeout(typeFromText, 100);
+
+    }else{
+
+        setTimeout(() => {
+
+            typeToText();
+
+        }, 300);
+
+    }
 
 }
 
