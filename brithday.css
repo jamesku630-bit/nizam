@@ -1349,17 +1349,19 @@ button:hover{
         min-height: 90vh;
 
         padding: 30px 20px;
+
+        position: relative;
     }
 
-    /* TEXT */
+    /* TEXT ATAS */
 
     .from-text{
         position: absolute;
 
-        top: 45px;
-        left: 45px;
+        top: 55px;
+        left: 35px;
 
-        font-size: 11px;
+        font-size: 15px;
 
         text-align: center;
 
@@ -1369,10 +1371,10 @@ button:hover{
     .to-text{
         position: absolute;
 
-        top: 45px;
-        right: 45px;
+        top: 55px;
+        right: 35px;
 
-        font-size: 11px;
+        font-size: 15px;
 
         text-align: center;
 
@@ -1384,26 +1386,30 @@ button:hover{
     .kuromi-gif{
         position: absolute;
 
-        width: 90px;
+        width: 125px;
 
-        top: 100px;
-        left: 30px;
+        top: 140px;
+        left: 25px;
 
         image-rendering: pixelated;
+
+        object-fit: contain;
     }
 
     .melody-gif{
         position: absolute;
 
-        width: 90px;
+        width: 125px;
 
-        top: 100px;
-        right: 30px;
+        top: 140px;
+        right: 25px;
 
         image-rendering: pixelated;
+
+        object-fit: contain;
     }
 
-    /* MESSAGE */
+    /* TEXT BAWAH */
 
     .love-message{
         position: absolute;
@@ -1411,11 +1417,11 @@ button:hover{
         left: 20px;
         right: 20px;
 
-        bottom: 100px;
+        bottom: 140px;
 
-        font-size: 13px;
+        font-size: 16px;
 
-        line-height: 1.8;
+        line-height: 1.9;
 
         text-align: center;
     }
