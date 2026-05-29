@@ -1344,96 +1344,95 @@ button:hover{
 
     /* ================= FORM 5 ================= */
 
-.letter-box{
-    width: 95%;
-    min-height: 90vh;
+    .letter-box{
+        width: 95%;
+        min-height: 90vh;
 
-    padding: 30px 20px;
-}
+        padding: 30px 20px;
+    }
 
-/* TEXT */
+    /* TEXT */
 
-.from-text{
-    position: absolute;
+    .from-text{
+        position: absolute;
 
-    top: 20px;
-    left: 25px;
+        top: 45px;
+        left: 45px;
 
-    font-size: 12px;
+        font-size: 11px;
 
-    text-align: center;
+        text-align: center;
 
-    line-height: 1.5;
-}
+        line-height: 1.5;
+    }
 
-.to-text{
-    position: absolute;
+    .to-text{
+        position: absolute;
 
-    top: 20px;
-    right: 25px;
+        top: 45px;
+        right: 45px;
 
-    font-size: 12px;
+        font-size: 11px;
 
-    text-align: center;
+        text-align: center;
 
-    line-height: 1.5;
-}
+        line-height: 1.5;
+    }
 
-/* GIF */
+    /* GIF */
 
-.kuromi-gif{
-    position: absolute;
+    .kuromi-gif{
+        position: absolute;
 
-    width: 95px;
+        width: 90px;
 
-    top: 70px;
-    left: 15px;
+        top: 100px;
+        left: 30px;
 
-    image-rendering: pixelated;
-}
+        image-rendering: pixelated;
+    }
 
-.melody-gif{
-    position: absolute;
+    .melody-gif{
+        position: absolute;
 
-    width: 95px;
+        width: 90px;
 
-    top: 70px;
-    right: 15px;
+        top: 100px;
+        right: 30px;
 
-    image-rendering: pixelated;
-}
+        image-rendering: pixelated;
+    }
 
-/* MESSAGE */
+    /* MESSAGE */
 
-.love-message{
-    position: absolute;
+    .love-message{
+        position: absolute;
 
-    left: 20px;
-    right: 20px;
+        left: 20px;
+        right: 20px;
 
-    bottom: 100px;
+        bottom: 100px;
 
-    font-size: 13px;
+        font-size: 13px;
 
-    line-height: 1.8;
+        line-height: 1.8;
 
-    text-align: center;
-}
+        text-align: center;
+    }
 
-/* BUTTON */
+    /* BUTTON */
 
-#letterBtn{
-    position: absolute;
+    #letterBtn{
+        position: absolute;
 
-    left: 50%;
-    bottom: 25px;
+        left: 50%;
+        bottom: 25px;
 
-    transform: translateX(-50%);
+        transform: translateX(-50%);
 
-    width: 170px;
-    height: 50px;
+        width: 170px;
+        height: 50px;
 
-    font-size: 10px;
-}
-
+        font-size: 10px;
+    }
 }
