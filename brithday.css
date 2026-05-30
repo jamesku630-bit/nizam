@@ -1358,10 +1358,10 @@ button:hover{
     .from-text{
         position: absolute;
 
-        top: 65px;
+        top: 80px;
         left: 40px;
 
-        font-size: 15px;
+        font-size: 13px;
 
         text-align: center;
 
@@ -1371,10 +1371,10 @@ button:hover{
     .to-text{
         position: absolute;
 
-        top: 65px;
+        top: 80px;
         right: 40px;
 
-        font-size: 15px;
+        font-size: 13px;
 
         text-align: center;
 
