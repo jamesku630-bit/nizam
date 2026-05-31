@@ -181,7 +181,7 @@ const nextBtn =
 document.getElementById("nextBtn");
 
 const birthdayMessage =
-`Happy 16st Birthday
+`Happy 16th Birthday
 Jinggaa !`;
 
 let birthdayIndex = 0;

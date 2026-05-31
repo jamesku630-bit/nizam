@@ -390,7 +390,7 @@ function startPhotoShow() {
             <div class="photo-frames-container">
                 ${framesHTML}
             </div>
-            <div class="photo-strip-footer">💕 FOTO FOTO LAMA YANG MASI TERSUSUN RAPIH DI GALERY💕</div>
+            <div class="photo-strip-footer">INII FOTO NYA AKU AMBIL DARI TIKTOK KAMU HEHE, LOVE U💕💕</div>
         </div>
         <div class="scroll-indicator">⬇ Scroll Down ⬇</div>
     `;
